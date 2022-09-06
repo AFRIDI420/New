@@ -7,7 +7,7 @@ import requests,bs4,json,os,sys,random,datetime,time,re
 try:
 
 	import rich
-        except ImportError:
+except ImportError:
 
 	os.system('pip install rich')
 
